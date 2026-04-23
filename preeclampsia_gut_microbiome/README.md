@@ -1,5 +1,9 @@
 # Gut Microbiota Composition in Pregnant Women with Preeclampsia
 
+## Full Citation
+Genxia Li, Huan Niu, Junya Zhang, Manman Yang, Mengyu Li, Mingkun Xie, Yujing Hao. (2025). *Study on characteristics of gut flora composition of pregnant women with preeclampsia*. BMC pregnancy and childbirth, 25:636.
+DOI: https://doi.org/10.1186/s12884-025-07760-4
+
 ## Study Overview
 This study investigated the gut microbiota composition of pregnant women with preeclampsia (PRE), including mild (P) and severe (SP) cases, compared to healthy controls (NOR).
 
