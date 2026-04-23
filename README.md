@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/lightamadi-stack/ BugSigDBcuration/tree/0dd9511df5dfae14d8591a9cc9479a593604183c/Coverpage" alt="Portfolio Banner" width="800">
+</p>
+
 # BugSigDB-Curation Portfolio
 
 Welcome to my BugSigDB Curation Portfolio!
