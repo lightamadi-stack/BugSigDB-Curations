@@ -8,7 +8,7 @@ DOI: https://doi.org/10.1186/s12884-025-07760-4
 This study investigated the gut microbiota composition of pregnant women with preeclampsia (PRE), including mild (P) and severe (SP) cases, compared to healthy controls (NOR).
 
 ## Study Design
-- Design: Prospective case–control study  
+- Design: Prospective cohort study  
 - Matching: Cases and controls matched by age, gestational age, and BMI  
 - Comparison groups:
   - PRE vs NOR  
@@ -57,5 +57,4 @@ This study investigated the gut microbiota composition of pregnant women with pr
 - Environment: Clinical cohort study  
 
 ## Curation Summary
-This curation required interpretation of multiple statistical outputs and integration of results across figures and tables. It improved my ability to standardize microbiome signatures according to BugSigDB guidelines and strengthened my understanding of case–control microbiome study design.
-
+This curation required interpretation of multiple statistical outputs and integration of results across figures and tables. It improved my ability to standardize microbiome signatures according to BugSigDB guidelines and strengthened my understanding of prospective cohort microbiome study design.
