@@ -61,10 +61,10 @@ The following were excluded based on BugSigDB curation rules:
 
 ### Experiment 1
 
-#### Increased in Aggressive Dogs
+#### Increased Abundance in Aggressive Dogs
 - *Pseudomonadota* (phylum)
 
-#### Increased in Non-Aggressive Dogs
+#### Decreased Abundanced in Aggressive Dogs
 - *Escherichia-Shigella*  
 - *Erysipelotrichaceae UCG-003*  
 - *Clostridium sensu stricto 1*  
@@ -73,10 +73,10 @@ The following were excluded based on BugSigDB curation rules:
 
 ### Experiment 2
 
-#### Increased in Offensive Aggression Dogs
+#### Increased Abundance in Offensive Aggression Dogs
 - *Turicibacter*  
 
-#### Increased in Defensive Aggression Dogs
+#### Decreased Abundance in Offensive Aggression Dogs
 - None (no significant taxa identified; no signature created)
 
 ---
