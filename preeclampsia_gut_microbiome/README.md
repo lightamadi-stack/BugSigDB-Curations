@@ -4,6 +4,11 @@
 Genxia Li, Huan Niu, Junya Zhang, Manman Yang, Mengyu Li, Mingkun Xie, Yujing Hao. (2025). *Study on characteristics of gut flora composition of pregnant women with preeclampsia*. BMC pregnancy and childbirth, 25:636.
 DOI: https://doi.org/10.1186/s12884-025-07760-4
 
+## BugSigDB Entry
+🔗 Curated record: https://bugsigdb.org/40450263
+
+---
+
 ## Study Overview
 This study investigated the gut microbiota composition of pregnant women with preeclampsia (PRE), including mild (P) and severe (SP) cases, compared to healthy controls (NOR).
 
@@ -29,6 +34,8 @@ This study investigated the gut microbiota composition of pregnant women with pr
 - Shannon index: unchanged  
 - Chao1 index: unchanged  
 
+---
+
 ## Differentially Abundant Taxa
 
 ### Increased in exposed group: Pregnant Women with Preeclampsia (PRE)
@@ -42,6 +49,8 @@ This study investigated the gut microbiota composition of pregnant women with pr
 
 ### Decreased in exposed group: Pregnant Women with Severe Preeclampsia (SP)
 - *Phascolarctobacterium*, *Bacteroidota*, *Phocaeicola plebeius*		
+
+---
 
 ## Curation Notes
 - Significant taxa were identified using asterisks (*) in figures and p-values in tables.
