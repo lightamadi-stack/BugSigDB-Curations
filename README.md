@@ -45,10 +45,19 @@ This makes each curation fully reproducible and verifiable.
 
 Each curated study is stored in its own folder:
 Open each folder and view the README.md file to explore the curated taxa, the decisions made during the curation process, and the associated study metadata.
-- `/preeclampsia_gut_microbiome/`
+- [Gut Microbiota Composition in Pregnant Women with Preeclampsia, 2025](preeclampsia_gut_microbiome/)
 - `/inborn-errors-metabolism-gut-microbiome/`
 - `/working-dogs-aggression-study/`
 - (etc)
+
+## 🔬 Curated Studies
+
+Here are the microbiome studies I have curated so far:
+
+- [Gut Microbiota in Preeclampsia (Li et al., 2025)](preeclampsia_2025_li_et_al/)
+- [Gut Microbiota in Intoxication-Type IEMs (MMA/PA/MSUD)](iem_intoxication_gut_microbiota_2024/)
+- [Study 3 Title](study3_folder/)
+- [Study 4 Title](study4_folder/)
 
 ---
 
