@@ -123,14 +123,14 @@ No significant taxa decreased in Group 1
 ---
 
 ## 🧾Curation Summary
-This was a methodologically challenging curation requiring careful policy application at multiple decision points. The study does not report a standard between-group taxon-level differential abundance analysis — its microbiome findings are entirely framed as Spearman correlations within PD patients between species abundance and GI symptoms or immune markers. This meant that the typical BugSigDB curation framework (Group 1 cases vs. Group 0 controls, taxa increased/decreased) had to be adapted to a within-group associative design, with each GI symptom domain treated as a separate experiment.
+This was a methodologically challenging curation requiring careful policy application at multiple decision points. The study does not report a standard between-group taxon-level differential abundance analysis, its microbiome findings are entirely framed as Spearman correlations within PD patients between species abundance and GI symptoms or immune markers. This meant that the typical BugSigDB curation framework (Group 1 cases vs. Group 0 controls, taxa increased/decreased) had to be adapted to a within-group associative design, with each GI symptom domain treated as a separate experiment.
 
 ### Key learning points from this curation:
-1. Recognising non-standard result types — understanding when a paper's microbiome results do not map cleanly onto BugSigDB's standard experiment structure, and escalating to a reviewer rather than forcing an inappropriate fit.
-2. Column-as-experiment structure — learning that each symptom domain in an associative heatmap can constitute a separate BugSigDB experiment with its own Group 1/Group 0 contrast.
-3. Supplementary table error detection — identifying a probable column-alignment error in adjusted p-values and knowing to use asterisks + main text p-values as the authoritative source.
-4. Rho direction = signature direction — applying the rule that positive Rho assigns a taxon to Signature 1 (increased in Group 1) and negative Rho to Signature 2 (increased in Group 0), regardless of how the authors frame the result in text
+1. Recognising non-standard result types: understanding when a paper's microbiome results do not map cleanly onto BugSigDB's standard experiment structure, and escalating to a reviewer rather than forcing an inappropriate fit.
+2. Column-as-experiment structure: learning that each symptom domain in an associative heatmap can constitute a separate BugSigDB experiment with its own Group 1/Group 0 contrast.
+3. Supplementary table error detection: identifying a probable column-alignment error in adjusted p-values and knowing to use asterisks + main text p-values as the authoritative source.
+4. Rho direction = signature direction: applying the rule that positive Rho assigns a taxon to Signature 1 (increased in Group 1) and negative Rho to Signature 2 (increased in Group 0), regardless of how the authors frame the result in text
 
-This curation contributes five novel GI symptom–microbiome association signatures from a Parkinson's disease cohort to BugSigDB — an underrepresented disease context in the database — and demonstrates the value of capturing associative microbiome findings where they represent the study's primary taxon-level results.
+This curation contributes five novel GI symptom–microbiome association signatures from a Parkinson's disease cohort to BugSigDB — an underrepresented disease context in the database, and demonstrates the value of capturing associative microbiome findings where they represent the study's primary taxon-level results.
 
 ---
