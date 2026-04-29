@@ -51,6 +51,7 @@ Open each folder and view the README.md file to explore the curated taxa, the de
 - [Gut Microbiota Composition in Pregnant Women with Preeclampsia, 2025](preeclampsia_gut_microbiome/)
 - [Gut Microbiota in Children with Intoxication-Type Inborn Errors of Metabolism (IEMs), 2026](inborn-errors-metabolism-gut-microbiome)
 - [Gut Microbiota and Aggressive Behavior in Working Dogs, 2025](working-dogs-aggression-study)
+- [Gut Microbiota in Parkinson's Disease and Constipation-Predominant Irritable Bowel Syndrome, 2026](shared-functional-microbiome-signatures-in-parkinson’s-diseases-and-constipation)
 
 ---
 
