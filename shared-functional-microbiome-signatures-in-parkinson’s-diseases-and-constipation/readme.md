@@ -33,29 +33,64 @@ For BugSigDB curation, only analysable, taxon-level, group-based results were ex
 ---
 
 ## 🔬Curated Experiments
+*Important structural note*: This study contains no traditional case-vs-control differential abundance. All curatable results come from within Parkinson’s disease (PD) Spearman correlations between microbial species abundance and Gastrointestinal (GI) symptoms in PD patients. Each GI symptom column in **Figure 3D** (PD panel only) matched with **Supplementary Table 4** constitutes a separate experiment.
+- Only taxa with **asterisks** (significant after BH-FDR correction) in Table S4 were included.
+- Direction determined by Rho:
+  - Positive Rho → Increased in symptom-positive group **(Group 1)**
+  - Negative Rho → Increased in symptom-negative group **(Group 0)**
 
-Important structural note:
-This study contains no traditional case-vs-control differential abundance.
-All curatable results come from within Parkinson’s disease (PD) Spearman correlations between microbial species abundance and Gastrointestinal (GI) symptoms in PD patients. Each GI symptom column in **Figure 3D** (PD panel only) matched with **Supplementary Table 4** constitutes a separate experiment.
-Only taxa with **asterisks** (significant after BH-FDR correction) in Table S4 were included.
-Direction determined by Rho:
-•	Positive Rho → Increased in symptom-positive group **(Group 1)**
-•	Negative Rho → Increased in symptom-negative group **(Group 0)**
+**Non-curated sources:**
+- Figure 3C (species-immune marker correlations was assessed and excluded, it it does not represent a group-contrast differential abundance analysis appropriate for BugSigDB.
+- No alpha diversity is recorded for any of the five experiments, as no alpha diversity analysis was conducted for symptom-based within-PD comparisons.
+- IBS-C comparisons (no taxon-level differential abundance performed)
+- Non-asterisk taxa | Not significant after BH correction 
 
+---
 
-- **Non-curated sources:**  
-  - Figure 3C (species-immune marker correlations was assessed and excluded, it it does not represent a group-contrast differential abundance analysis appropriate for BugSigDB. 
-  - No alpha diversity is recorded for any of the five experiments, as no alpha diversity analysis was conducted for symptom-based within-PD comparisons. 
-  - IBS-C comparisons (no taxon-level differential abundance performed)  
+### ✔️ Experiment 1: Difficulty Swallowing
+Group 1: Parkinson's disease (PD) patients with difficulty swallowing
+Group 0: Parkinson's disease (PD) patients without difficulty swallowing
 
+#### Signature 1 — Increased in Group 1
+- *Mediterraneibacter gnavus*	
+#### Signature 2 — Decreased in Group 1
+- No significant taxa decreased in Group 1.
 
+### ✔️ Experiment 2: Vomiting or Nausea
+Group 1: Parkinson's disease (PD) patients with vomiting or nausea
+Group 0: Parkinson's disease (PD) patients without vomiting or nausea
 
+#### Signature 1 — Increased in Group 1
+- *Veillonella atypica*
+- *Allisonella histaminiformans*
+- *Alistipes sp. An31A* etc
+#### Signature 2 — Decreased in Group 1
+- *Intestinimonas massiliensis*
+- *Alistipes finegoldii* etc
 
-### ✔️ Experiment 1
-- **Comparison:** IEM patients (MMA + PA + MSUD) vs. healthy controls  
-- **Source of curatable results:** Figure 4 (LEfSe bar plot)
+### ✔️ Experiment 3: Constipation (Last Month)
+Group 1: Parkinson's disease (PD) patients with constipation within the last month
+Group 0: Parkinson's disease (PD) patients without constipation within the last month
 
-No disease-specific subgroup analyses were performed; therefore only one experiment was curatable.
+#### Signature 1 — Increased in Group 1
+- *GGB9788_SGB15411* (Unamed taxon)
+- *GGB9637_SGB15111* (Unamed taxon)
+#### Signature 2 — Decreased in Group 1
+- *GGB9818_SGB15459* (Unamed taxon)
+
+### ✔️ Experiment 4: Incomplete Bowel Emptying
+Group 1: Parkinson's disease (PD) patients with incomplete bowel emptying
+Group 0: Parkinson's disease (PD) patients without incomplete bowel emptying
+
+#### Signature 1 — Increased in Group 1
+- *Intestinimonas massiliensis*
+- *Alistipes finegoldii*
+#### Signature 2 — Decreased in Group 1
+(Extensive list) includes:
+- *Allisonella histaminiformans*
+- *Phocaeicola coprophilus*
+- *Odoribacter laneus* etc
+
 
 ---
 
