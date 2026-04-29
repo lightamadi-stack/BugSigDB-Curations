@@ -108,8 +108,8 @@ No significant taxa decreased in Group 1
 
 ## 📊Statistical Analyses
 - **Spearman Correlation** + **Benjamini–Hochberg False Discovery Rate** correction (BH-FDR) for species-symptom and species-immune analyses etc
-- Data transformation: Total Sum Scaling followed by **Centered Log-Ratio transformation**
-- Significance level: **α = 0.05**
+- Data transformation: TSS (**total sum scaling**) normalization followed by CLR (**centered Log-ratio**) applied prior to all Spearman analyses
+- Significance level: BH-FDR adjusted **p < 0.05**
 
 ---
 
@@ -122,49 +122,15 @@ No significant taxa decreased in Group 1
 
 ---
 
+## 🧾Curation Summary
+This was a methodologically challenging curation requiring careful policy application at multiple decision points. The study does not report a standard between-group taxon-level differential abundance analysis — its microbiome findings are entirely framed as Spearman correlations within PD patients between species abundance and GI symptoms or immune markers. This meant that the typical BugSigDB curation framework (Group 1 cases vs. Group 0 controls, taxa increased/decreased) had to be adapted to a within-group associative design, with each GI symptom domain treated as a separate experiment.
 
-## 🧾 Summary
-This study required non-standard BugSigDB curation due to its absence of case–control taxon-level differential abundance. Instead, all curatable results were species–GI symptom correlations within PD, producing five valid experiments.
-Key takeaways:
-1. Correct identification of non-standard experimental structures
-2. Use of symptom columns as independent experiments
-3. Accurate handling of unnamed SGBs
-4. Detecting supplementary p-value alignment errors
-5. Applying Rho direction rules consistently 
-Hence, this curation adds five unique microbiome–symptom signatures in Parkinson’s disease — a context currently underrepresented in BugSigDB.
+### Key learning points from this curation:
+1. Recognising non-standard result types — understanding when a paper's microbiome results do not map cleanly onto BugSigDB's standard experiment structure, and escalating to a reviewer rather than forcing an inappropriate fit.
+2. Column-as-experiment structure — learning that each symptom domain in an associative heatmap can constitute a separate BugSigDB experiment with its own Group 1/Group 0 contrast.
+3. Supplementary table error detection — identifying a probable column-alignment error in adjusted p-values and knowing to use asterisks + main text p-values as the authoritative source.
+4. Rho direction = signature direction — applying the rule that positive Rho assigns a taxon to Signature 1 (increased in Group 1) and negative Rho to Signature 2 (increased in Group 0), regardless of how the authors frame the result in text
 
-
-
+This curation contributes five novel GI symptom–microbiome association signatures from a Parkinson's disease cohort to BugSigDB — an underrepresented disease context in the database — and demonstrates the value of capturing associative microbiome findings where they represent the study's primary taxon-level results.
 
 ---
-
-## Curation Notes
-- Determined correct study design despite author mislabeling.  
-- Identified only one valid curatable experiment.  
-- Carefully applied LEfSe-only rules.  
-- Excluded non-statistical or purely descriptive figures.  
-- Ensured taxonomy correctness and handled legacy database artifacts.  
-- Followed BugSigDB policies for signature creation, including preserving invalid but reported taxa.
-
----
-
-## Metadata
-- **Host:** Human (children)  
-- **Condition:** Intoxication-type inborn errors of metabolism (MMA, PA, MSUD)  
-- **Control group:** Age-matched healthy children  
-- **Environment:** Clinical pediatric cohort  
-- **Sequencing:** 16S rRNA sequencing  
-
----
-
-## Curation Summary
-This curation strengthened my ability to:
-- Apply BugSigDB study design criteria independently of author terminology  
-- Distinguish curatable from non-curatable figures  
-- Apply LEfSe-specific curation rules  
-- Handle taxonomy inconsistencies from legacy databases  
-- Ensure accuracy in reporting statistical significance and taxonomy  
-
-This contribution fills an important gap by documenting microbial signatures in rare pediatric metabolic disorders.
-
-
