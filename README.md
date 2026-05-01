@@ -13,7 +13,7 @@ This repository serves as:
 - A portfolio of my microbiome curation work  
 - Documentation of my contributions to BugSigDB  
 - A reference for future microbiome-related projects  
-- Evidence of open-source contributions  
+- Record of open-source contributions  
 
 ---
 
@@ -26,7 +26,7 @@ I contribute by:
 - Identifying valid taxa using the NCBI Taxonomy Browser
 - Applying BugSigDB curation rules to ensure consistency and accuracy
 - Documenting study design, matching, confounders, and significant taxa
-- Collaborating with mentors and peers during the outreachy contribution phase
+- Engaging in team-based collaboration
 
 ## 📁 Repository Structure
 
